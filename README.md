@@ -1,8 +1,8 @@
 # recipeGraphQL
 
-###Tech stack used for the application
+### Tech stack used for the application
 
-####Front End
+#### Front End
 * REACTJS
   - Next.js for server side rendering and routing
   - Styling with Styled components
@@ -15,7 +15,7 @@
   - Managing Local State
   - Error and Loading UI States
 
-####Back End
+#### Back End
 * GraphQL Yoga
   - Applying Query and Mutation Resolvers
   - Server Side Logic
