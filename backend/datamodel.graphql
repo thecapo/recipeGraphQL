@@ -1,0 +1,32 @@
+enum Permission {
+  ADMIN
+  USER
+  RECIPECREATE  
+  RECIPEUPDATE
+  RECIPEDELETE
+  PERMISSIONUPDATE
+}
+
+type User {
+  id: ID! @unique @id
+  name: String!
+  email: String! @unique
+  password: String!
+  resetToken: String
+  resetTokenExpiry: Float
+  permissions: [Permission] @scalarList(strategy:RELATION)
+  updatedAt: DateTime! @updatedAt
+  createdAt: DateTime! @createdAt
+}
+
+type Recipe {
+  id: ID! @unique @id
+  title: String!
+  ingredients: String!
+  instructions: String!
+  image: String
+  largeImage: String
+  updatedAt: DateTime! @updatedAt
+  createdAt: DateTime! @createdAt
+  user: User!
+}
