@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CreateRecipe/> renders and matches snapshot 1`] = `
+<form
+  className="Form-sc-1kmq3n-0 kiKqiK"
+  data-test="form"
+  onSubmit={[Function]}
+>
+  <DisplayError
+    error={Object {}}
+  />
+  <fieldset
+    aria-busy={false}
+    disabled={false}
+  >
+    <label
+      htmlFor="file"
+    >
+      Image
+      <input
+        id="file"
+        name="file"
+        onChange={[Function]}
+        placeholder="Upload an image"
+        type="file"
+      />
+    </label>
+    <label
+      htmlFor="title"
+    >
+      Title
+      <input
+        defaultValue=""
+        id="title"
+        name="title"
+        onChange={[Function]}
+        placeholder="Title"
+        required={true}
+        type="text"
+      />
+    </label>
+    <label
+      htmlFor="ingredients"
+    >
+      Ingredients
+      <input
+        defaultValue=""
+        id="ingredients"
+        name="ingredients"
+        onChange={[Function]}
+        placeholder="Ingredients..."
+        required={true}
+        type="text"
+      />
+    </label>
+    <label
+      htmlFor="instructions"
+    >
+      Instructions
+      <textarea
+        defaultValue=""
+        id="instructions"
+        name="instructions"
+        onChange={[Function]}
+        placeholder="Instructions..."
+        required={true}
+      />
+    </label>
+    <button
+      type="sumbit"
+    >
+      Create
+    </button>
+  </fieldset>
+</form>
+`;

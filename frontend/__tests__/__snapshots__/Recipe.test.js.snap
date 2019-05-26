@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Recipe/> renders and matches the snapshot 1`] = `
+<RecipeStyles>
+  <img
+    alt="Delicious Food"
+    src="food.jpg"
+  />
+  <Title>
+    <Link
+      href={
+        Object {
+          "pathname": "/recipe",
+          "query": Object {
+            "id": undefined,
+          },
+        }
+      }
+    >
+      <a>
+        Delicious Food
+      </a>
+    </Link>
+  </Title>
+  <ul>
+    <li
+      key="0"
+    >
+      3tsbp chocolate
+    </li>
+    <li
+      key="1"
+    >
+      2/4cup water
+    </li>
+  </ul>
+  <div
+    className="buttonList"
+  >
+    <Link
+      href={
+        Object {
+          "pathname": "/recipe",
+          "query": Object {
+            "id": undefined,
+          },
+        }
+      }
+    >
+      <a>
+        Read Recipe
+      </a>
+    </Link>
+    <Link
+      href={
+        Object {
+          "pathname": "/update",
+          "query": Object {
+            "id": undefined,
+          },
+        }
+      }
+    >
+      <a>
+        Edit
+      </a>
+    </Link>
+    <DeleteRecipe>
+      Delete Recipe
+    </DeleteRecipe>
+  </div>
+</RecipeStyles>
+`;
