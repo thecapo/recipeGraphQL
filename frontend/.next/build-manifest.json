@@ -18,6 +18,14 @@
     "/index": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
+    ],
+    "/recipe": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/update": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ]
   }
 }
