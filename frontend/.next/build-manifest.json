@@ -1,31 +1,55 @@
 {
-  "devFiles": [
-    "static/development/dll/dll_aa8f31c0c93a8f34edc5.js"
-  ],
+  "devFiles": [],
   "pages": {
     "/": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-fdce77a122c11e06ae50.js",
+      "static/chunks/commons.acc076b3b91bdb3fa4c5.js",
+      "static/runtime/main-22f63127890d42d73b8a.js"
     ],
     "/_app": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-fdce77a122c11e06ae50.js",
+      "static/chunks/commons.acc076b3b91bdb3fa4c5.js",
+      "static/runtime/main-22f63127890d42d73b8a.js"
     ],
     "/_error": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-fdce77a122c11e06ae50.js",
+      "static/chunks/commons.acc076b3b91bdb3fa4c5.js",
+      "static/runtime/main-22f63127890d42d73b8a.js"
+    ],
+    "/createrecipe": [
+      "static/runtime/webpack-fdce77a122c11e06ae50.js",
+      "static/chunks/commons.acc076b3b91bdb3fa4c5.js",
+      "static/runtime/main-22f63127890d42d73b8a.js"
     ],
     "/index": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-fdce77a122c11e06ae50.js",
+      "static/chunks/commons.acc076b3b91bdb3fa4c5.js",
+      "static/runtime/main-22f63127890d42d73b8a.js"
+    ],
+    "/permissions": [
+      "static/runtime/webpack-fdce77a122c11e06ae50.js",
+      "static/chunks/commons.acc076b3b91bdb3fa4c5.js",
+      "static/runtime/main-22f63127890d42d73b8a.js"
     ],
     "/recipe": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-fdce77a122c11e06ae50.js",
+      "static/chunks/commons.acc076b3b91bdb3fa4c5.js",
+      "static/runtime/main-22f63127890d42d73b8a.js"
+    ],
+    "/reset": [
+      "static/runtime/webpack-fdce77a122c11e06ae50.js",
+      "static/chunks/commons.acc076b3b91bdb3fa4c5.js",
+      "static/runtime/main-22f63127890d42d73b8a.js"
+    ],
+    "/signup": [
+      "static/runtime/webpack-fdce77a122c11e06ae50.js",
+      "static/chunks/commons.acc076b3b91bdb3fa4c5.js",
+      "static/runtime/main-22f63127890d42d73b8a.js"
     ],
     "/update": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-fdce77a122c11e06ae50.js",
+      "static/chunks/commons.acc076b3b91bdb3fa4c5.js",
+      "static/runtime/main-22f63127890d42d73b8a.js"
     ]
   }
 }
