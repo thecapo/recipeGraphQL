@@ -43,7 +43,7 @@ class Recipe extends Component {
             }}
           >
             <a>Read Recipe</a>
-          </Link>
+          </Link> 
           <Link
             href={{
               pathname: "/update",
