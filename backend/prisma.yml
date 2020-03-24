@@ -1,5 +1,4 @@
-#endpoint: ${env:PRISMA_ENDPOINT}
-endpoint: https://recipe-production-bed1fd7521.herokuapp.com/recipe-prod/prod
+endpoint: ${env:PRISMA_ENDPOINT}
 datamodel: datamodel.graphql
 secret: ${env:PRISMA_SECRET}
 hooks:
